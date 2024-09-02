@@ -1,13 +1,14 @@
+
 import Card from "@/Components/Card";
 import Link from "next/link";
 
-export default function Notifications() {
+export default function UselessPage() {
     return (
         <Card>
             <p>
-                <Link href="/dashboard/useless"
+                <Link href="/dashboard"
                     style={{ backgroundColor: "blue", color: "white" }}>
-                    use-less
+                    Dfeault
                 </Link>
             </p>
             <p style={{ marginLeft: "10px" }}>Notifications</p>
